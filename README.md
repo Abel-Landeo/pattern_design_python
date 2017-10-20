@@ -11,11 +11,11 @@ Representation of objects as tree structures in order to represent part-whole hi
 ### Structure and Elements of Composite Pattern
 Normally, Composite Object structure looks like this:
 
-![basic composite structure](https://lh3.googleusercontent.com/kB6I1bP2aqtre4V0QQ7UsYKdwRR6AzpI7U-002Zvwl-JkR46jbKBMkIQ0gZLuYDieZe8jn25B5EzQkc=w1366-h637)
+[basic composite structure](https://lh3.googleusercontent.com/kB6I1bP2aqtre4V0QQ7UsYKdwRR6AzpI7U-002Zvwl-JkR46jbKBMkIQ0gZLuYDieZe8jn25B5EzQkc=w1366-h637)
 
 A class diagram to represent this pattern is as follows:
 
-![class diagram of composite pattern](https://lh3.googleusercontent.com/H4QbrLXTK6eIfo71ot4dJPn54OOyD57hM67xphoCzt4WPETX8IVBWs0oPOyWY5MasHK1uIlke0ic1IQ=w1366-h637)
+[class diagram of composite pattern](https://lh3.googleusercontent.com/H4QbrLXTK6eIfo71ot4dJPn54OOyD57hM67xphoCzt4WPETX8IVBWs0oPOyWY5MasHK1uIlke0ic1IQ=w1366-h637)
 Image taken from GoF Book
 
 Elements of Composite Pattern are:
@@ -30,6 +30,6 @@ We will show employees hierarchy of an organization using composite pattern demo
 
 Simple class Diagram
 
-![diagram class example 1](https://lh6.googleusercontent.com/Cn6Zg3BOQB7Tyy6-p7k_B-Du3j0gkh5_2TS3FoyRZJV8wk9dSdR4cbuv2d59uQ5dR1hWwaWP3OMGf9Q=w1366-h637)
+[diagram class example 1](https://lh6.googleusercontent.com/Cn6Zg3BOQB7Tyy6-p7k_B-Du3j0gkh5_2TS3FoyRZJV8wk9dSdR4cbuv2d59uQ5dR1hWwaWP3OMGf9Q=w1366-h637)
 
 See implementation in Composite/prog1 folder
