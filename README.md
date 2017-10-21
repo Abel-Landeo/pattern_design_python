@@ -33,3 +33,12 @@ Simple class Diagram
 [diagram class example 1](https://lh6.googleusercontent.com/Cn6Zg3BOQB7Tyy6-p7k_B-Du3j0gkh5_2TS3FoyRZJV8wk9dSdR4cbuv2d59uQ5dR1hWwaWP3OMGf9Q=w1366-h637)
 
 See implementation in Composite/prog1 folder
+
+### Example 02
+We will use a single Shape objects and also a group (composite) of Shapes called Drawing that behaves as a single object.
+
+Simple class Diagram
+
+[diagram class example 2](https://lh3.googleusercontent.com/x01Sf8j45XXnOJr-bjOT8ZT-yEeS7Vxa3hHypO8cAgDoZLqku3L2tve-HQEdH8Ttxc8BNb9da80AxGM=w1366-h637-rw)
+
+See implementation in Composite/prog2 folder
