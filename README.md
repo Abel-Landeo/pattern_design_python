@@ -42,3 +42,13 @@ Simple class Diagram
 [diagram class example 2](https://drive.google.com/open?id=0B1I420fBHITvTnJfM2pDTE5na2M)
 
 See implementation in Composite/prog2 folder
+
+# Short Definitions of the rest of Pattern Designs (PD):
+## Creational PDs:
+* __Singleton__: For creating only one instance of a class and providing only one global access to that instance.
+* __Prototype__: For cloning another object when the creation of that object is costly or takes many Database hits; the cloning process can be shallow copy or deep copy.
+* __Factory__: For creating specialized instances from a Base class based on some rules or criteria; the class that encapsulates this criteria is called Factory Class and it hides the creational procedure to the client or consumer.
+* __Abstract Factory__: For creating family of instances of objects. This DP is also called Factory of Factories; the class that gets one or another Factory is called Abstract Factory Class.
+* __Builder__: For creating objects based on a corresponding step-by-step procedure per object to be created. The class that contains the procedures is called Builder Class and it hides this procedures to the clients or costumers.
+
+ 
