@@ -60,3 +60,15 @@ See implementation in Composite/prog2 folder
 * __Flyweight__: For reducing the number of objects created in order to reduce memory footprint and improve performance. This PD reuses already created objects to provide similar objects and a new object will be created only if there is no similar object created yet.
 * __Proxy__: For providing a class which represents functionalily of another class so that the cost of fully creation of the object can be controlled.
 
+## Behavioral PDs:
+* __Chain of Responsibility__: For decoupling sender and reciever of a request based on type of request. There is a chain of recievers for handling the request and if one reciever cannot handle it then the request is passed to the next reciever in the chain until one reciever is capable of handling it.
+* __Command__: For wrapping a request under an object as command and passing it to invoker object; this invoker object looks for the appropiate object which can handle this command.
+* __Interpreter__: For providing a way to evaluate language grammar or expression. This PD uses an interpreter interface to interpret different contexts based on implementations of this interface.
+* __Iterator__: For accessing the elements of a collection of objects in a sequencial manner without exposing its internal representation.
+* __Mediator__: For reducing communication complexity between multiple objects or classes so that promotes low coupling as prevent objects interfere each other explicitly and permit the interaction of them vary independently.
+* __Memento__: See [https://github.com/Abel-Landeo/pattern_design_python/tree/master/Memento](https://github.com/Abel-Landeo/pattern_design_python/tree/master/Memento) for complete detail.
+* __Observer__: For defining a one-to-many dependency between objects so that if one object is modified, then all the dependent objects are notified. Elements: Subject, Observer, Clients.
+* __State__: For changing the behavior of a class based on its current state.
+* __Strategy__: For changing the behavior or algorithm at runtime. This DP defines a family of algorithms and make them interchangeable.
+* __Template Method__: For exposing a defined way/template to execute its methods through an interface class. Implementation classes can override one or more method of the template but the order of invocation is to be in the same way as defined in the interface.
+* __Visitor__: For changing the executing algorithm of an element class through the visit of a Visitor class. By this way, execution algorithm of elements can vary as and when the visitor varies.
