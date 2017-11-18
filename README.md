@@ -51,4 +51,12 @@ See implementation in Composite/prog2 folder
 * __Abstract Factory__: For creating family of instances of objects. This DP is also called Factory of Factories; the class that gets one or another Factory is called Abstract Factory Class.
 * __Builder__: For creating objects based on a corresponding step-by-step procedure per object to be created. The class that contains the procedures is called Builder Class and it hides this procedures to the clients or costumers.
 
- 
+## Structural PDs:
+* __Adapter__: For connecting two incompatible interfaces. This Pattern use a Wrapper class on the incompatible interface in order to provide a compatible interface.
+* __Bridge__: For decoupling an abstraction from its implementations so that both can vary independenty meaning that both classes can be altered structurally without affecting each other.
+* __Composite__: See above for complete detail.
+* __Decorator__: For adding new functionality to an existing object dinamically meaning that the class structure of the object is not altered.
+* __Facade__: For providing a unified interface for a set of interfaces in a complex subsystem. The purpose is to hide complexities of a system to the clients or consumers by showing simplified methods in one interface called Facade.
+* __Flyweight__: For reducing the number of objects created in order to reduce memory footprint and improve performance. This PD reuses already created objects to provide similar objects and a new object will be created only if there is no similar object created yet.
+* __Proxy__: For providing a class which represents functionalily of another class so that the cost of fully creation of the object can be controlled.
+
